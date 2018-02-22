@@ -1,0 +1,16 @@
+package com.example.demo;
+
+import org.junit.Assert;
+import org.junit.Test;
+
+public class HelloControllerTest {
+
+	@Test
+	public void test() {
+		HelloController helloController = new HelloController();
+		String sayHelloStr = helloController.SayHelloController();
+		
+		Assert.assertEquals(sayHelloStr,"Hello World");
+	}
+
+}

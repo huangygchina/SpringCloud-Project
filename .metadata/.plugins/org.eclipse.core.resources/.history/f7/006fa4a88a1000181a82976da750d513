@@ -1,0 +1,20 @@
+package com.example.demo;
+
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
+
+public class HelloControllerTest {
+
+	@Test
+	public void test() {
+		HelloController helloController = new HelloController();
+		String sayHelloStr = helloController.SayHelloController();
+		
+		assertThat(sayHelloStr,equals("Hello World!"));
+	}
+
+}

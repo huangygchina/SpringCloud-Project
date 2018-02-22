@@ -1,0 +1,4 @@
+spring.datasource.url=jdbC:oracle:thin:@10.50.10.27:1521:Gclub
+spring.datasource.username=ibpp
+spring.datasource.password=ibpp
+spring.datasource.driver-class-name=oracle.jdbc.driver.OracleDriver
